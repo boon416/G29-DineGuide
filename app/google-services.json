@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "797661962796",
+    "project_id": "dineguide-9f9f5",
+    "storage_bucket": "dineguide-9f9f5.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:797661962796:android:9ea062faae10cb8ce82789",
+        "android_client_info": {
+          "package_name": "com.example.dineguide"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeLI5pVIDZCSADRjYlV_9B0ApGS4nOKlY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

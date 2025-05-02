@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/foodbg"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <!-- 餐厅大图 -->
+        <ImageView
+            android:id="@+id/detailImageRestaurant"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_launcher_background"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- 餐厅名称 -->
+        <TextView
+            android:id="@+id/detailTextName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Restaurant Name"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- 位置 -->
+        <TextView
+            android:id="@+id/detailTextLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Location"
+            android:textSize="16sp"
+            android:textColor="#666666"
+            android:layout_marginBottom="4dp"/>
+
+        <!-- Cuisine -->
+        <TextView
+            android:id="@+id/detailTextCuisine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cuisine: Asian, Malay"
+            android:textSize="16sp"
+            android:textColor="#666666"
+            android:layout_marginBottom="4dp"/>
+
+        <!-- Rating -->
+        <TextView
+            android:id="@+id/detailTextRating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="⭐ 4.5"
+            android:textSize="16sp"
+            android:textColor="#FFA500"
+            android:layout_marginBottom="4dp"/>
+
+        <!-- Price Range -->
+        <TextView
+            android:id="@+id/detailTextPriceRange"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Price Range: $$"
+            android:textSize="16sp"
+            android:textColor="#00AA00"
+            android:layout_marginBottom="12dp"/>
+
+        <!-- 描述 -->
+        <TextView
+            android:id="@+id/detailTextDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="This is a nice restaurant serving local delights and Asian cuisine. Very popular among students!"
+            android:textSize="16sp"
+            android:textColor="#444444"
+            android:layout_marginBottom="16dp"/>
+
+    </LinearLayout>
+</ScrollView>

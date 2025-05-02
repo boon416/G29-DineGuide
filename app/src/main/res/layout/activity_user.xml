@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/foodbg">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/appTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DineGuide"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Greeting -->
+    <TextView
+        android:id="@+id/user_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hi, user@example.com"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- All buttons use the same width & height -->
+    <Button
+        android:id="@+id/btnSpinwheel2"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginVertical="8dp"
+        android:layout_marginHorizontal="32dp"
+        android:text="Start Spinwheel"/>
+
+    <Button
+        android:id="@+id/btnHistory"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginVertical="8dp"
+        android:layout_marginHorizontal="32dp"
+        android:text="History"/>
+
+    <Button
+        android:id="@+id/btnBrowseRestaurants"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginVertical="8dp"
+        android:layout_marginHorizontal="32dp"
+        android:text="Browse Restaurants"/>
+
+    <Button
+        android:id="@+id/btnViewFavorites"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginVertical="8dp"
+        android:layout_marginHorizontal="32dp"
+        android:text="My Favorites"/>
+
+    <Button
+        android:id="@+id/btnLogoutNow"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginVertical="8dp"
+        android:layout_marginHorizontal="32dp"
+        android:text="Logout"/>
+
+</LinearLayout>
+

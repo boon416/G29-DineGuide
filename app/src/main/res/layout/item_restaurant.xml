@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:background="@drawable/foodbg"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="6dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="12dp">
+
+        <!-- 餐厅图片 -->
+        <ImageView
+            android:id="@+id/imageRestaurant"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_launcher_background" />
+
+        <!-- 名称 + Pin按钮并排 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:paddingTop="8dp"
+            android:paddingBottom="4dp">
+
+            <TextView
+                android:id="@+id/textName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Restaurant Name"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnPin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="⭐ Pin"
+                android:textSize="14sp"/>
+        </LinearLayout>
+
+        <!-- 位置 -->
+        <TextView
+            android:id="@+id/textLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Location"
+            android:textSize="14sp"
+            android:textColor="#666666"
+            android:paddingTop="2dp"
+            android:paddingBottom="2dp" />
+
+        <!-- Cuisine -->
+        <TextView
+            android:id="@+id/textCuisine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cuisine Info"
+            android:textSize="14sp"
+            android:textColor="#666666"
+            android:paddingTop="2dp"
+            android:paddingBottom="2dp" />
+
+        <!-- Rating -->
+        <TextView
+            android:id="@+id/textRating"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="⭐ 4.5"
+            android:textSize="14sp"
+            android:textColor="#FFA500"
+            android:paddingTop="2dp"
+            android:paddingBottom="2dp" />
+
+        <!-- Price Range -->
+        <TextView
+            android:id="@+id/textPriceRange"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="$$"
+            android:textSize="14sp"
+            android:textColor="#00AA00"
+            android:paddingTop="2dp"
+            android:paddingBottom="2dp" />
+
+        <!-- 简单描述 -->
+        <TextView
+            android:id="@+id/textDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Restaurant description goes here"
+            android:textSize="14sp"
+            android:textColor="#444444"
+            android:paddingTop="4dp"
+            android:paddingBottom="8dp" />
+
+        <!-- 地图和详情按钮 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:paddingTop="8dp">
+
+            <Button
+                android:id="@+id/btnMap"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="📍 Open in Maps"
+                android:layout_marginEnd="8dp"/>
+
+            <Button
+                android:id="@+id/btnDetails"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="See Details"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

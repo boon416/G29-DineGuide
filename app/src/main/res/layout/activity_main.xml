@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/foodbg">
+
+
+    <!-- Title Text -->
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DineGuide"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="32dp"/>
+
+    <!-- All buttons share these dimensions and margins -->
+    <Button
+        android:id="@+id/btnSpinwheel"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginVertical="8dp"
+        android:layout_marginHorizontal="32dp"
+        android:text="Start Spinwheel"/>
+
+    <Button
+        android:id="@+id/btnHistoryMain"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginVertical="8dp"
+        android:layout_marginHorizontal="32dp"
+        android:text="History"/>
+
+    <Button
+        android:id="@+id/btnBrowse"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginVertical="8dp"
+        android:layout_marginHorizontal="32dp"
+        android:text="Browse Restaurants"/>
+
+    <Button
+        android:id="@+id/btnLoginNow"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginVertical="8dp"
+        android:layout_marginHorizontal="32dp"
+        android:text="Login Now"/>
+
+</LinearLayout>
+

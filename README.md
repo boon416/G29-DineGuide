@@ -23,3 +23,20 @@ DineGuide is a simple yet interactive Android application designed to help users
 4. Run the `app` module
 
 > ⚠️ Make sure to connect your own Firebase project or replace the existing `google-services.json` if needed.
+
+> ## 📁 Project Structure
+DineGuide/
+├── app/ # Main application source code
+├── build.gradle
+├── settings.gradle
+├── gradle.properties
+├── gradlew*
+└── README.md
+
+
+---
+
+## 📌 GitHub Repository
+
+https://github.com/boon416/G29-DineGuide  
+Collaborator: `tanchiangkang`
